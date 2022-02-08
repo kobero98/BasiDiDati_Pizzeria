@@ -1,0 +1,8 @@
+{
+	"host": "localhost",
+	"username": "CAMERIERE",
+	"password": "CAMERIERE",
+	"port": 3306,
+	"database": "pizzeria"
+}
+
