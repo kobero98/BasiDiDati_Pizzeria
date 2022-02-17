@@ -1,0 +1,57 @@
+USE pizzeria;
+CREATE USER IF NOT EXISTS 'LOGIN' IDENTIFIED BY 'LOGIN';
+CREATE ROLE IF NOT EXISTS 'role_login';
+GRANT EXECUTE ON PROCEDURE login TO 'role_login';
+GRANT 'role_login' TO 'LOGIN';
+SET DEFAULT ROLE 'role_login' TO 'LOGIN';
+
+CREATE USER IF NOT EXISTS 'MANAGER' IDENTIFIED BY 'MANAGER';
+CREATE ROLE IF NOT EXISTS 'role_manager';
+GRANT EXECUTE ON PROCEDURE AddCamerieri TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE AddCliente TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE addIngredienti TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE addProdotto TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE addTurno TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE AggiungiTavolo TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE AssegnareTavoloCameriere TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE AssegnaTurnoTavolo TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE Cliente_Tavolo TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE Creare_Turno TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE dbListaIngredienti TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE IncassiGiornalieri TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE IncassiMensili TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE IncrementaIngrediente TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE StampaScontrino TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE ListCamerieri TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE ListTurni TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE TavoliLiberi TO 'role_manager';
+GRANT EXECUTE ON PROCEDURE UpdateIngrdienti TO 'role_manager';
+GRANT 'role_manager' TO 'MANAGER';
+SET DEFAULT ROLE 'role_manager' TO 'MANAGER';
+
+CREATE USER IF NOT EXISTS 'CAMERIERE' IDENTIFIED BY 'CAMERIERE';
+CREATE ROLE IF NOT EXISTS 'role_cameriere';
+GRANT EXECUTE ON PROCEDURE ListaAggiunte TO 'role_cameriere';
+GRANT EXECUTE ON PROCEDURE menu TO 'role_cameriere';
+GRANT EXECUTE ON PROCEDURE Ordine TO 'role_cameriere';
+GRANT EXECUTE ON PROCEDURE ordiniDaPortare TO 'role_cameriere';
+GRANT EXECUTE ON PROCEDURE TavoliAssegnatiCameriere TO 'role_cameriere';
+GRANT EXECUTE ON PROCEDURE UpdateComandeConsegnate TO 'role_cameriere';
+GRANT EXECUTE ON PROCEDURE VerificaCameriere TO 'role_cameriere';
+GRANT EXECUTE ON PROCEDURE Cliente_Tavolo TO 'role_cameriere';
+GRANT 'role_cameriere' TO 'CAMERIERE';
+SET DEFAULT ROLE 'role_cameriere' TO 'CAMERIERE';
+
+CREATE USER IF NOT EXISTS 'BARISTA' IDENTIFIED BY 'BARISTA';
+CREATE ROLE IF NOT EXISTS 'role_barista';
+GRANT EXECUTE ON PROCEDURE BaristaOrdini TO 'role_barista';
+GRANT EXECUTE ON PROCEDURE BevandePronte TO 'role_barista';
+GRANT 'role_barista' TO 'BARISTA';
+SET DEFAULT ROLE 'role_barista' TO 'BARISTA';
+
+CREATE USER IF NOT EXISTS 'PIZZAIOLO' IDENTIFIED BY 'PIZZAIOLO';
+CREATE ROLE IF NOT EXISTS 'role_pizzaiolo';
+GRANT EXECUTE ON PROCEDURE OrdiniDaPrepararePizzaiolo TO 'role_pizzaiolo';
+GRANT EXECUTE ON PROCEDURE pizzaPreparata TO 'role_pizzaiolo';
+GRANT 'role_pizzaiolo' TO 'PIZZAIOLO';
+SET DEFAULT ROLE 'role_pizzaiolo' TO 'PIZZAIOLO';

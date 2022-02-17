@@ -6,181 +6,181 @@
 
 #IncludeRegexTransform: 
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/baristaView.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/baristaView.c
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 baristaView.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/baristaView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/baristaView.h
 stdio.h
 -
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/baristaView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/baristaView.h
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/cameriereView.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/cameriereView.c
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 cameriereView.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/cameriereView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/cameriereView.h
 stdio.h
 -
 string.h
 -
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/cameriereView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/cameriereView.h
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/loginView.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/loginView.c
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 loginView.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/loginView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/loginView.h
 stdio.h
 -
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/loginView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/loginView.h
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 stdio.h
 -
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/managerView.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/managerView.c
 stdio.h
 -
 managerView.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/managerView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/managerView.h
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/managerView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/managerView.h
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/pizzaioloView.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/pizzaioloView.c
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 pizzaioloView.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/pizzaioloView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/pizzaioloView.h
 stdio.h
 -
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/pizzaioloView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/pizzaioloView.h
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerBarista.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerBarista.c
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 ../model/db.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/model/db.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/model/db.h
 ../View/baristaView.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/baristaView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/baristaView.h
 controllerBarista.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerBarista.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerBarista.h
 stdio.h
 -
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerBarista.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerBarista.h
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerCameriere.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerCameriere.c
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 ../model/db.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/model/db.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/model/db.h
 ../View/cameriereView.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/cameriereView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/cameriereView.h
 string.h
 -
 stdio.h
 -
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerCameriere.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerCameriere.h
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerLogin.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerLogin.c
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 ../View/loginView.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/loginView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/loginView.h
 controllerLogin.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerLogin.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerLogin.h
 ../model/db.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/model/db.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/model/db.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerLogin.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerLogin.h
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerManager.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerManager.c
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 ../View/managerView.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/managerView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/managerView.h
 ../model/db.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/model/db.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/model/db.h
 stdio.h
 -
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerManager.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerManager.h
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerPizzaiolo.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerPizzaiolo.c
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 ../model/db.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/model/db.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/model/db.h
 controllerPizzaiolo.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerPizzaiolo.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerPizzaiolo.h
 ../View/pizzaioloView.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/View/pizzaioloView.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/pizzaioloView.h
 stdio.h
 -
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerPizzaiolo.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerPizzaiolo.h
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/main.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/main.c
 stdio.h
 -
 util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 controller/controllerLogin.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerLogin.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerLogin.h
 controller/controllerManager.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerManager.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerManager.h
 controller/controllerCameriere.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerCameriere.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerCameriere.h
 controller/controllerPizzaiolo.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerPizzaiolo.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerPizzaiolo.h
 controller/controllerBarista.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerBarista.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerBarista.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/model/db.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/model/db.c
 stdio.h
 -
 string.h
 -
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/model/db.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/model/db.h
 ../util/defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 stdbool.h
 -
 mysql.h
 -
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/inout.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/inout.c
 unistd.h
 -
 stdio.h
@@ -202,9 +202,9 @@ signal.h
 stdbool.h
 -
 defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/parse.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/parse.c
 stddef.h
 -
 stdio.h
@@ -214,9 +214,9 @@ stdlib.h
 string.h
 -
 defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/utils.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/utils.c
 stdio.h
 -
 stdlib.h
@@ -224,7 +224,7 @@ stdlib.h
 string.h
 -
 defines.h
-/home/kobero/Scrivania/ProgettoFinaleBasi/util/defines.h
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/defines.h
 
 /usr/include/mysql/errmsg.h
 

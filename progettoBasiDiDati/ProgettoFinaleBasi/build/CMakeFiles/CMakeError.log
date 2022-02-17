@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test HAVE_MYSQL_OPT_EMBEDDED_CONNECTION failed with the following output:
-Change Dir: /home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp
+Change Dir: /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_8ecd4/fast && gmake[1]: ingresso nella directory «/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp»
-/usr/bin/gmake  -f CMakeFiles/cmTC_8ecd4.dir/build.make CMakeFiles/cmTC_8ecd4.dir/build
-gmake[2]: ingresso nella directory «/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_8ecd4.dir/src.c.o
-/usr/bin/cc  -I/usr/include/mysql -DHAVE_MYSQL_OPT_EMBEDDED_CONNECTION -o CMakeFiles/cmTC_8ecd4.dir/src.c.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp/src.c
-/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
-/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp/src.c:2:22: error: ‘MYSQL_OPT_USE_EMBEDDED_CONNECTION’ undeclared (first use in this function); did you mean ‘HAVE_MYSQL_OPT_EMBEDDED_CONNECTION’?
+Run Build Command(s):/usr/bin/gmake cmTC_37fc0/fast && gmake[1]: ingresso nella directory «/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp»
+/usr/bin/gmake  -f CMakeFiles/cmTC_37fc0.dir/build.make CMakeFiles/cmTC_37fc0.dir/build
+gmake[2]: ingresso nella directory «/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_37fc0.dir/src.c.o
+/usr/bin/cc  -I/usr/include/mysql -DHAVE_MYSQL_OPT_EMBEDDED_CONNECTION -o CMakeFiles/cmTC_37fc0.dir/src.c.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp/src.c
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp/src.c:2:22: error: ‘MYSQL_OPT_USE_EMBEDDED_CONNECTION’ undeclared (first use in this function); did you mean ‘HAVE_MYSQL_OPT_EMBEDDED_CONNECTION’?
     2 | int main() { int i = MYSQL_OPT_USE_EMBEDDED_CONNECTION; }
       |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       |                      HAVE_MYSQL_OPT_EMBEDDED_CONNECTION
-/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp/src.c:2:22: note: each undeclared identifier is reported only once for each function it appears in
-gmake[2]: *** [CMakeFiles/cmTC_8ecd4.dir/build.make:85: CMakeFiles/cmTC_8ecd4.dir/src.c.o] Errore 1
-gmake[2]: uscita dalla directory «/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp»
-gmake[1]: *** [Makefile:140: cmTC_8ecd4/fast] Errore 2
-gmake[1]: uscita dalla directory «/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp»
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp/src.c:2:22: note: each undeclared identifier is reported only once for each function it appears in
+gmake[2]: *** [CMakeFiles/cmTC_37fc0.dir/build.make:85: CMakeFiles/cmTC_37fc0.dir/src.c.o] Errore 1
+gmake[2]: uscita dalla directory «/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp»
+gmake[1]: *** [Makefile:140: cmTC_37fc0/fast] Errore 2
+gmake[1]: uscita dalla directory «/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/CMakeTmp»
 
 
 Source file was:

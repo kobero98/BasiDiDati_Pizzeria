@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kobero/Scrivania/ProgettoFinaleBasi
+CMAKE_SOURCE_DIR = /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kobero/Scrivania/ProgettoFinaleBasi/build
+CMAKE_BINARY_DIR = /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/client.dir/depend.make
@@ -78,198 +78,198 @@ include CMakeFiles/client.dir/flags.make
 
 CMakeFiles/client.dir/main.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/main.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/client.dir/main.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/main.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/client.dir/main.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/main.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/main.c
 
 CMakeFiles/client.dir/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/main.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/main.c > CMakeFiles/client.dir/main.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/main.c > CMakeFiles/client.dir/main.i
 
 CMakeFiles/client.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/main.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/main.c -o CMakeFiles/client.dir/main.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/main.c -o CMakeFiles/client.dir/main.s
 
 CMakeFiles/client.dir/controller/controllerPizzaiolo.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/controller/controllerPizzaiolo.o: ../controller/controllerPizzaiolo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/client.dir/controller/controllerPizzaiolo.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/controller/controllerPizzaiolo.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerPizzaiolo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/client.dir/controller/controllerPizzaiolo.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/controller/controllerPizzaiolo.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerPizzaiolo.c
 
 CMakeFiles/client.dir/controller/controllerPizzaiolo.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/controller/controllerPizzaiolo.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerPizzaiolo.c > CMakeFiles/client.dir/controller/controllerPizzaiolo.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerPizzaiolo.c > CMakeFiles/client.dir/controller/controllerPizzaiolo.i
 
 CMakeFiles/client.dir/controller/controllerPizzaiolo.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/controller/controllerPizzaiolo.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerPizzaiolo.c -o CMakeFiles/client.dir/controller/controllerPizzaiolo.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerPizzaiolo.c -o CMakeFiles/client.dir/controller/controllerPizzaiolo.s
 
 CMakeFiles/client.dir/controller/controllerManager.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/controller/controllerManager.o: ../controller/controllerManager.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/client.dir/controller/controllerManager.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/controller/controllerManager.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerManager.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/client.dir/controller/controllerManager.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/controller/controllerManager.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerManager.c
 
 CMakeFiles/client.dir/controller/controllerManager.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/controller/controllerManager.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerManager.c > CMakeFiles/client.dir/controller/controllerManager.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerManager.c > CMakeFiles/client.dir/controller/controllerManager.i
 
 CMakeFiles/client.dir/controller/controllerManager.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/controller/controllerManager.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerManager.c -o CMakeFiles/client.dir/controller/controllerManager.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerManager.c -o CMakeFiles/client.dir/controller/controllerManager.s
 
 CMakeFiles/client.dir/controller/controllerLogin.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/controller/controllerLogin.o: ../controller/controllerLogin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/client.dir/controller/controllerLogin.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/controller/controllerLogin.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerLogin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/client.dir/controller/controllerLogin.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/controller/controllerLogin.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerLogin.c
 
 CMakeFiles/client.dir/controller/controllerLogin.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/controller/controllerLogin.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerLogin.c > CMakeFiles/client.dir/controller/controllerLogin.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerLogin.c > CMakeFiles/client.dir/controller/controllerLogin.i
 
 CMakeFiles/client.dir/controller/controllerLogin.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/controller/controllerLogin.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerLogin.c -o CMakeFiles/client.dir/controller/controllerLogin.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerLogin.c -o CMakeFiles/client.dir/controller/controllerLogin.s
 
 CMakeFiles/client.dir/controller/controllerBarista.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/controller/controllerBarista.o: ../controller/controllerBarista.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/client.dir/controller/controllerBarista.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/controller/controllerBarista.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerBarista.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/client.dir/controller/controllerBarista.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/controller/controllerBarista.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerBarista.c
 
 CMakeFiles/client.dir/controller/controllerBarista.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/controller/controllerBarista.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerBarista.c > CMakeFiles/client.dir/controller/controllerBarista.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerBarista.c > CMakeFiles/client.dir/controller/controllerBarista.i
 
 CMakeFiles/client.dir/controller/controllerBarista.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/controller/controllerBarista.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerBarista.c -o CMakeFiles/client.dir/controller/controllerBarista.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerBarista.c -o CMakeFiles/client.dir/controller/controllerBarista.s
 
 CMakeFiles/client.dir/controller/controllerCameriere.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/controller/controllerCameriere.o: ../controller/controllerCameriere.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/client.dir/controller/controllerCameriere.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/controller/controllerCameriere.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerCameriere.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/client.dir/controller/controllerCameriere.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/controller/controllerCameriere.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerCameriere.c
 
 CMakeFiles/client.dir/controller/controllerCameriere.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/controller/controllerCameriere.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerCameriere.c > CMakeFiles/client.dir/controller/controllerCameriere.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerCameriere.c > CMakeFiles/client.dir/controller/controllerCameriere.i
 
 CMakeFiles/client.dir/controller/controllerCameriere.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/controller/controllerCameriere.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/controller/controllerCameriere.c -o CMakeFiles/client.dir/controller/controllerCameriere.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/controller/controllerCameriere.c -o CMakeFiles/client.dir/controller/controllerCameriere.s
 
 CMakeFiles/client.dir/model/db.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/model/db.o: ../model/db.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/client.dir/model/db.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/model/db.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/model/db.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/client.dir/model/db.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/model/db.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/model/db.c
 
 CMakeFiles/client.dir/model/db.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/model/db.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/model/db.c > CMakeFiles/client.dir/model/db.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/model/db.c > CMakeFiles/client.dir/model/db.i
 
 CMakeFiles/client.dir/model/db.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/model/db.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/model/db.c -o CMakeFiles/client.dir/model/db.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/model/db.c -o CMakeFiles/client.dir/model/db.s
 
 CMakeFiles/client.dir/util/inout.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/util/inout.o: ../util/inout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/client.dir/util/inout.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/util/inout.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/util/inout.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/client.dir/util/inout.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/util/inout.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/inout.c
 
 CMakeFiles/client.dir/util/inout.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/util/inout.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/util/inout.c > CMakeFiles/client.dir/util/inout.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/inout.c > CMakeFiles/client.dir/util/inout.i
 
 CMakeFiles/client.dir/util/inout.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/util/inout.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/util/inout.c -o CMakeFiles/client.dir/util/inout.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/inout.c -o CMakeFiles/client.dir/util/inout.s
 
 CMakeFiles/client.dir/util/parse.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/util/parse.o: ../util/parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/client.dir/util/parse.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/util/parse.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/util/parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/client.dir/util/parse.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/util/parse.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/parse.c
 
 CMakeFiles/client.dir/util/parse.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/util/parse.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/util/parse.c > CMakeFiles/client.dir/util/parse.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/parse.c > CMakeFiles/client.dir/util/parse.i
 
 CMakeFiles/client.dir/util/parse.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/util/parse.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/util/parse.c -o CMakeFiles/client.dir/util/parse.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/parse.c -o CMakeFiles/client.dir/util/parse.s
 
 CMakeFiles/client.dir/util/utils.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/util/utils.o: ../util/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/client.dir/util/utils.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/util/utils.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/util/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/client.dir/util/utils.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/util/utils.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/utils.c
 
 CMakeFiles/client.dir/util/utils.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/util/utils.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/util/utils.c > CMakeFiles/client.dir/util/utils.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/utils.c > CMakeFiles/client.dir/util/utils.i
 
 CMakeFiles/client.dir/util/utils.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/util/utils.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/util/utils.c -o CMakeFiles/client.dir/util/utils.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/util/utils.c -o CMakeFiles/client.dir/util/utils.s
 
 CMakeFiles/client.dir/View/baristaView.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/View/baristaView.o: ../View/baristaView.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/client.dir/View/baristaView.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/View/baristaView.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/View/baristaView.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/client.dir/View/baristaView.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/View/baristaView.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/baristaView.c
 
 CMakeFiles/client.dir/View/baristaView.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/View/baristaView.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/View/baristaView.c > CMakeFiles/client.dir/View/baristaView.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/baristaView.c > CMakeFiles/client.dir/View/baristaView.i
 
 CMakeFiles/client.dir/View/baristaView.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/View/baristaView.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/View/baristaView.c -o CMakeFiles/client.dir/View/baristaView.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/baristaView.c -o CMakeFiles/client.dir/View/baristaView.s
 
 CMakeFiles/client.dir/View/cameriereView.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/View/cameriereView.o: ../View/cameriereView.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/client.dir/View/cameriereView.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/View/cameriereView.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/View/cameriereView.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/client.dir/View/cameriereView.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/View/cameriereView.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/cameriereView.c
 
 CMakeFiles/client.dir/View/cameriereView.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/View/cameriereView.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/View/cameriereView.c > CMakeFiles/client.dir/View/cameriereView.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/cameriereView.c > CMakeFiles/client.dir/View/cameriereView.i
 
 CMakeFiles/client.dir/View/cameriereView.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/View/cameriereView.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/View/cameriereView.c -o CMakeFiles/client.dir/View/cameriereView.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/cameriereView.c -o CMakeFiles/client.dir/View/cameriereView.s
 
 CMakeFiles/client.dir/View/loginView.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/View/loginView.o: ../View/loginView.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/client.dir/View/loginView.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/View/loginView.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/View/loginView.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/client.dir/View/loginView.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/View/loginView.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/loginView.c
 
 CMakeFiles/client.dir/View/loginView.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/View/loginView.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/View/loginView.c > CMakeFiles/client.dir/View/loginView.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/loginView.c > CMakeFiles/client.dir/View/loginView.i
 
 CMakeFiles/client.dir/View/loginView.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/View/loginView.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/View/loginView.c -o CMakeFiles/client.dir/View/loginView.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/loginView.c -o CMakeFiles/client.dir/View/loginView.s
 
 CMakeFiles/client.dir/View/managerView.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/View/managerView.o: ../View/managerView.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/client.dir/View/managerView.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/View/managerView.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/View/managerView.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/client.dir/View/managerView.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/View/managerView.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/managerView.c
 
 CMakeFiles/client.dir/View/managerView.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/View/managerView.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/View/managerView.c > CMakeFiles/client.dir/View/managerView.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/managerView.c > CMakeFiles/client.dir/View/managerView.i
 
 CMakeFiles/client.dir/View/managerView.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/View/managerView.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/View/managerView.c -o CMakeFiles/client.dir/View/managerView.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/managerView.c -o CMakeFiles/client.dir/View/managerView.s
 
 CMakeFiles/client.dir/View/pizzaioloView.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/View/pizzaioloView.o: ../View/pizzaioloView.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/client.dir/View/pizzaioloView.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/View/pizzaioloView.o -c /home/kobero/Scrivania/ProgettoFinaleBasi/View/pizzaioloView.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/client.dir/View/pizzaioloView.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/client.dir/View/pizzaioloView.o -c /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/pizzaioloView.c
 
 CMakeFiles/client.dir/View/pizzaioloView.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/View/pizzaioloView.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/ProgettoFinaleBasi/View/pizzaioloView.c > CMakeFiles/client.dir/View/pizzaioloView.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/pizzaioloView.c > CMakeFiles/client.dir/View/pizzaioloView.i
 
 CMakeFiles/client.dir/View/pizzaioloView.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/View/pizzaioloView.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/ProgettoFinaleBasi/View/pizzaioloView.c -o CMakeFiles/client.dir/View/pizzaioloView.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/View/pizzaioloView.c -o CMakeFiles/client.dir/View/pizzaioloView.s
 
 # Object files for target client
 client_OBJECTS = \
@@ -310,7 +310,7 @@ client: CMakeFiles/client.dir/View/pizzaioloView.o
 client: CMakeFiles/client.dir/build.make
 client: /usr/lib/x86_64-linux-gnu/libmysqlclient.so
 client: CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -323,6 +323,6 @@ CMakeFiles/client.dir/clean:
 .PHONY : CMakeFiles/client.dir/clean
 
 CMakeFiles/client.dir/depend:
-	cd /home/kobero/Scrivania/ProgettoFinaleBasi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kobero/Scrivania/ProgettoFinaleBasi /home/kobero/Scrivania/ProgettoFinaleBasi /home/kobero/Scrivania/ProgettoFinaleBasi/build /home/kobero/Scrivania/ProgettoFinaleBasi/build /home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build /home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/client.dir/depend
 

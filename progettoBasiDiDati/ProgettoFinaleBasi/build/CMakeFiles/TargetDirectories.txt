@@ -1,3 +1,3 @@
-/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/rebuild_cache.dir
-/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/edit_cache.dir
-/home/kobero/Scrivania/ProgettoFinaleBasi/build/CMakeFiles/client.dir
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/rebuild_cache.dir
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/edit_cache.dir
+/home/kobero/Scrivania/progettoBasiDiDati/ProgettoFinaleBasi/build/CMakeFiles/client.dir

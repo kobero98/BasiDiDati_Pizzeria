@@ -54,7 +54,7 @@ char * viewAggiunta(ingrediente  * aggiunte){
         do{
             getInput(4,n,false);
             number=atoi(n);
-        }while(number<1 && number>i);
+        }while(number<1 || number>=i);
         p=aggiunte;
         i=1;
         while(i<number){
@@ -98,7 +98,7 @@ char* OrdineCamerierePizze(ingrediente * aggiunte,prodotto * lista){
         do{
             getInput(4,n,false);
             number=atoi(n);
-        }while(number<1 && number>i);
+        }while(number<1 || number>=i);
         p=lista;
         i=0;
         while(i<number){
@@ -150,7 +150,7 @@ char * OrdineCameriereBevande(prodotto * lista){
         do{
             getInput(4,n,false);
             number=atoi(n);
-        }while(number<1 && number>i);
+        }while(number<1 || number>=i);
         p=lista;
         i=0;
         while(i<number){
@@ -195,7 +195,7 @@ int ViewOrdiniDaConsegnare(ordini * list,int z)
         do{
             getInput(4,app,false);
             c=atoi(app);
-        }while(c<=0 || c>j);
+        }while(c<=0 || c>=j);
     }
 
     return c;
